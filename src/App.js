@@ -1,21 +1,21 @@
-import logo from "./logo.svg";
-import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Home from "./components/Home";
+import Links from "./components/Links";
+import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>This is proof that it is updating..</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact />
+      <Links />
     </div>
   );
 }

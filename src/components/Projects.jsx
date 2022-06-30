@@ -12,7 +12,7 @@ const Projects = () => {
       id: 1,
       src: project1,
       name: "PBay",
-      loc: "PBay",
+      loc: "pBay",
       href: "https://github.com/PSebaRaj/pBay",
     },
     {
@@ -33,14 +33,14 @@ const Projects = () => {
       id: 4,
       src: project4,
       name: "WebChat",
-      loc: "WebChat",
+      loc: "Chat",
       href: "https://github.com/PSebaRaj/Chat",
     },
     {
       id: 5,
       src: project5,
       name: "StockAPI",
-      loc: "StockAPI",
+      loc: "StockMarketAPI",
       href: "https://github.com/PSebaRaj/StockMarketAPI",
     },
     {

@@ -27,15 +27,15 @@ const About = () => {
           Systems Programming (CPSC 323), Computational Intelligence for Games
           (CPSC 474), and Econometrics (ECON 136), while still exploring
           academia beyond these fields with courses like Electronic Dance Music
-          (MUSI 290), Military History of the West Since 1500 (HIST 221),
+          (MUSI 290), Military History of the West Since 1500 (HIST 221), and
           History of World History (HIST 072).
         </p>
         <br />
         <p className="text-xl">
           {" "}
           Beyond this, I'm involved in extracurriculars such as the Yale Daily
-          News and the Morse College Council, and I'm an avid fan of Formula One
-          and Tennis.
+          News and the Morse College Council, and am interested in Formula One,
+          tennis, and geography.
         </p>
       </div>
     </div>

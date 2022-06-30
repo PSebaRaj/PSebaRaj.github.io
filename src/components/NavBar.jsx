@@ -35,7 +35,7 @@ const NavBar = () => {
           class="text-5xl font-semibold 
             bg-gradient-to-r bg-clip-text  text-transparent ml-2
             from-sky-500 via-gray-100 to-sky-500
-            animate-text
+            animate-text duration-300
             "
         >
           PS

@@ -1,21 +1,26 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Home from "./components/Home";
-import Links from "./components/Links";
-import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import PBay from "./pages/Projects/PBay";
+import TradingPlatform from "./pages/Projects/TradingPlatform";
+import VideoMemories from "./pages/Projects/VideoMemories";
+import WebChat from "./pages/Projects/WebChat";
+import StockAPI from "./pages/Projects/StockAPI";
+import Portfolio from "./pages/Projects/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Links />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/PBay" element={<PBay />} />
+          <Route path="/TradingPlatform" element={<TradingPlatform />} />
+          <Route path="/VideoMemories" element={<VideoMemories />} />
+          <Route path="/WebChat" element={<WebChat />} />
+          <Route path="/StockAPI" element={<StockAPI />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

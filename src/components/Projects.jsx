@@ -11,26 +11,38 @@ const Projects = () => {
     {
       id: 1,
       src: project1,
+      name: "PBay",
+      href: "https://github.com/PSebaRaj/pBay",
     },
     {
       id: 2,
       src: project2,
+      name: "TradingPlatform",
+      href: "https://github.com/PSebaRaj/TradingPlatform",
     },
     {
       id: 3,
       src: project3,
+      name: "VideoMemories",
+      href: "https://www.google.com",
     },
     {
       id: 4,
       src: project4,
+      name: "WebChat",
+      href: "https://github.com/PSebaRaj/Chat",
     },
     {
       id: 5,
       src: project5,
+      name: "StockAPI",
+      href: "https://github.com/PSebaRaj/StockMarketAPI",
     },
     {
       id: 6,
       src: project6,
+      name: "Portfolio",
+      href: "https://github.com/PSebaRaj/PSebaRaj.github.io",
     },
   ];
 
@@ -48,20 +60,27 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-110"
-              />
-              <div className="flex item-center justify-center">
-                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-110">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-110">
-                  Code
-                </button>
+          {projects.map(({ id, src, name, href }) => (
+            <div>
+              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <a href={name} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={src}
+                    alt={name}
+                    className="rounded-md duration-200 hover:scale-110"
+                  />
+                </a>
+                <div className="flex item-center justify-center">
+                  <p className="w-1/2 text-center px-4 py-2 ">{name}</p>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className=" w-1/2 text-center px-4 py-2 duration-200 hover:scale-110"
+                  >
+                    Code
+                  </a>
+                </div>
               </div>
             </div>
           ))}

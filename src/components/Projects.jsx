@@ -12,36 +12,42 @@ const Projects = () => {
       id: 1,
       src: project1,
       name: "PBay",
+      loc: "PBay",
       href: "https://github.com/PSebaRaj/pBay",
     },
     {
       id: 2,
       src: project2,
       name: "TradingPlatform",
+      loc: "TradingPlatform",
       href: "https://github.com/PSebaRaj/TradingPlatform",
     },
     {
       id: 3,
       src: project3,
       name: "VideoMemories",
+      loc: "VideoMemories",
       href: "https://www.google.com",
     },
     {
       id: 4,
       src: project4,
       name: "WebChat",
+      loc: "WebChat",
       href: "https://github.com/PSebaRaj/Chat",
     },
     {
       id: 5,
       src: project5,
       name: "StockAPI",
+      loc: "StockAPI",
       href: "https://github.com/PSebaRaj/StockMarketAPI",
     },
     {
       id: 6,
       src: project6,
       name: "Portfolio",
+      loc: "",
       href: "https://github.com/PSebaRaj/PSebaRaj.github.io",
     },
   ];
@@ -60,10 +66,10 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, name, href }) => (
+          {projects.map(({ id, src, name, loc, href }) => (
             <div>
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                <a href={name} target="_blank" rel="noopener noreferrer">
+                <a href={loc} target="_blank" rel="noopener noreferrer">
                   <img
                     src={src}
                     alt={name}

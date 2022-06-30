@@ -11,7 +11,51 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-7xl text-gray-100">
-            Hi! I'm Patrick SebaRaj!
+            Hi!&nbsp;I'm&nbsp;
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              P
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              a
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              t
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              r
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              i
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              c
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              k
+            </span>
+            &nbsp;
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              S
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              e
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              b
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              a
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              R
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              a
+            </span>
+            <span className="hover:scale-110 hover:text-sky-400 duration-300">
+              j
+            </span>
+            !
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
             I'm a Junior at Yale College studying Computer Science and

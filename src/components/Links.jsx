@@ -21,7 +21,7 @@ const Links = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/patricksebaraj/",
+      href: "https://www.linkedin.com/in/sebaraj/",
     },
     {
       id: 3,

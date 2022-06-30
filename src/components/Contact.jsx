@@ -12,8 +12,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            Submit the form below or email me at patrick DOT sebaraj AT yale DOT
-            edu
+            Submit the form below or email me at patrick.sebaraj@yale.edu
           </p>
         </div>
 

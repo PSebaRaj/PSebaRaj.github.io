@@ -12,9 +12,31 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">I'm a person.</p>
+        <p className="text-xl mt-10">
+          I'm a Junior at Yale College pursuring a B.S. in Computer Science and
+          Economics, and I'm interested in the intersection of the two fields.
+          I've been passionate about all things computers for as long as I can
+          remember, and economics has become of great interest to me at
+          university. I'm currently seeking software engineering opportunities
+          (Summer 2023) to explore one, or both, of these fields.
+        </p>
         <br />
-        <p className="text-xl"> 2nd paragarph we be talkin about stuff yk</p>
+        <p className="text-xl">
+          {" "}
+          At Yale, I've been able to explore these fields by taking courses like
+          Systems Programming (CPSC 323), Computational Intelligence for Games
+          (CPSC 474), and Econometrics (ECON 136), while still exploring
+          academia beyond these fields with courses like Electronic Dance Music
+          (MUSI 290), Military History of the West Since 1500 (HIST 221),
+          History of World History (HIST 072).
+        </p>
+        <br />
+        <p className="text-xl">
+          {" "}
+          Beyond this, I'm involved in extracurriculars such as the Yale Daily
+          News and the Morse College Council, and I'm an avid fan of Formula One
+          and Tennis.
+        </p>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-400">
-            About
+            About Me
           </p>
         </div>
         <p className="text-xl mt-10">
@@ -17,8 +17,9 @@ const About = () => {
           Economics, and I'm interested in the intersection of the two fields.
           I've been passionate about all things computers for as long as I can
           remember, and economics has become of great interest to me at
-          university. I'm currently seeking software engineering opportunities
-          (Summer 2023) to explore one, or both, of these fields.
+          university. To further explore at least one of these passions, I'm
+          currently seeking software engineering opportunities for the summer of
+          2023.
         </p>
         <br />
         <p className="text-xl">

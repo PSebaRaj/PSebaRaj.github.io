@@ -1,10 +1,10 @@
 import React from "react";
-import project1 from "../assets/portfolioPhotos/proj1.png";
-import project2 from "../assets/portfolioPhotos/proj2.png";
-import project3 from "../assets/portfolioPhotos/proj3.png";
-import project4 from "../assets/portfolioPhotos/proj4.png";
-import project5 from "../assets/portfolioPhotos/proj5.png";
-import project6 from "../assets/portfolioPhotos/proj6.png";
+import project1 from "../assets/portfolioPhotos/pbay.png";
+import project2 from "../assets/portfolioPhotos/gogetitdone.png";
+import project3 from "../assets/portfolioPhotos/tradingPlatform.png";
+import project4 from "../assets/portfolioPhotos/webChat.png";
+import project5 from "../assets/portfolioPhotos/stockapi.png";
+import project6 from "../assets/portfolioPhotos/portfolioPic.png";
 
 const Projects = () => {
   const projects = [

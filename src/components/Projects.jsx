@@ -18,16 +18,16 @@ const Projects = () => {
     {
       id: 2,
       src: project2,
-      name: "TradingPlatform",
-      loc: "TradingPlatform",
-      href: "https://github.com/PSebaRaj/TradingPlatform",
+      name: "GoGetItDone",
+      loc: "GoGetItDone",
+      href: "https://github.com/PSebaRaj/GoGetItDone",
     },
     {
       id: 3,
       src: project3,
-      name: "VideoMemories",
-      loc: "VideoMemories",
-      href: "https://www.google.com",
+      name: "TradingPlatform",
+      loc: "TradingPlatform",
+      href: "https://github.com/PSebaRaj/TradingPlatform",
     },
     {
       id: 4,

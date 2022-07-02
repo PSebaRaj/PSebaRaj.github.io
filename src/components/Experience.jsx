@@ -8,6 +8,8 @@ import MongoDBPic from "../assets/techPhotos/mongo.png";
 import GrpcPic from "../assets/techPhotos/grpc.png";
 import Python from "../assets/techPhotos/python.png";
 import CPic from "../assets/techPhotos/C.png";
+import RedisPic from "../assets/techPhotos/redis.png";
+import PostgresPic from "../assets/techPhotos/pg.png";
 
 const Experience = () => {
   const technologies = [
@@ -42,6 +44,18 @@ const Experience = () => {
       style: "shadow-sky-400",
     },
     {
+      id: 7,
+      src: GrpcPic,
+      name: "gRPC",
+      style: "shadow-teal-400",
+    },
+    {
+      id: 10,
+      src: PostgresPic,
+      name: "PostgreSQL",
+      style: "shadow-sky-600",
+    },
+    {
       id: 6,
       src: MongoDBPic,
       name: "MongoDB",
@@ -53,16 +67,17 @@ const Experience = () => {
       name: "MySQL",
       style: "shadow-sky-600",
     },
-    {
-      id: 7,
-      src: GrpcPic,
-      name: "gRPC",
-      style: "shadow-teal-400",
-    },
+
     {
       id: 8,
       src: GitPic,
       name: "Git",
+      style: "shadow-red-500",
+    },
+    {
+      id: 9,
+      src: RedisPic,
+      name: "Redis",
       style: "shadow-red-500",
     },
   ];

@@ -35,7 +35,7 @@ const About = () => {
           {" "}
           Beyond this, I'm involved in extracurriculars such as the Yale Daily
           News and the Morse College Council, and am interested in Formula One,
-          tennis, and geography.
+          tennis, and EDM.
         </p>
       </div>
     </div>

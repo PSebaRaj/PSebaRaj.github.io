@@ -13,11 +13,11 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          I'm a Junior at Yale College pursuring a B.S. in Computer Science and
+          I'm a student at Yale pursuring a B.S. in Computer Science and
           Economics, and I'm interested in the intersection of the two fields.
           I've been passionate about all things computers for as long as I can
-          remember, and economics has become of great interest to me at
-          university. To further explore at least one of these passions, I'm
+          remember, and I've found and strengthened my passion for economics at
+          college. To further explore at least one of these interests, I'm
           currently seeking software engineering opportunities for the summer of
           2023.
         </p>
@@ -26,10 +26,10 @@ const About = () => {
           {" "}
           At Yale, I've been able to explore these fields by taking courses like
           Systems Programming (CPSC 323), Computational Intelligence for Games
-          (CPSC 474), and Econometrics (ECON 136), while still exploring
-          academia beyond these fields with courses like Electronic Dance Music
-          (MUSI 290), Military History of the West Since 1500 (HIST 221), and
-          History of World History (HIST 072).
+          (CPSC 474), and Econometrics (ECON 136), while exploring beyond these
+          fields with courses like Electronic Dance Music (MUSI 290), Military
+          History of the West Since 1500 (HIST 221), and History of World
+          History (HIST 072).
         </p>
         <br />
         <p className="text-xl">

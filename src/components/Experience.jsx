@@ -10,9 +10,10 @@ import Python from "../assets/techPhotos/python.png";
 import CPic from "../assets/techPhotos/C.png";
 import RedisPic from "../assets/techPhotos/redis.png";
 import PostgresPic from "../assets/techPhotos/pg.png";
+import LuaPic from "../assets/techPhotos/Lua.png";
 
 const Experience = () => {
-  const technologies = [
+  const proficientTechnologies = [
     {
       id: 1,
       src: GoPic,
@@ -20,49 +21,37 @@ const Experience = () => {
       style: "shadow-sky-400",
     },
     {
-      id: 4,
+      id: 2,
       src: Python,
       name: "Python",
       style: "shadow-yellow-400",
     },
     {
-      id: 9,
+      id: 3,
       src: CPic,
       name: "C",
       style: "shadow-sky-600",
     },
     {
-      id: 2,
+      id: 4,
       src: NodePic,
       name: "Node.js",
       style: "shadow-lime-500",
     },
     {
-      id: 3,
+      id: 5,
       src: ReactPic,
       name: "React",
       style: "shadow-sky-400",
     },
     {
-      id: 7,
-      src: GrpcPic,
-      name: "gRPC",
-      style: "shadow-teal-400",
-    },
-    {
-      id: 10,
+      id: 6,
       src: PostgresPic,
       name: "PostgreSQL",
       style: "shadow-sky-600",
     },
     {
-      id: 6,
-      src: MongoDBPic,
-      name: "MongoDB",
-      style: "shadow-lime-500",
-    },
-    {
-      id: 5,
+      id: 7,
       src: MySQLPic,
       name: "MySQL",
       style: "shadow-sky-600",
@@ -74,8 +63,29 @@ const Experience = () => {
       name: "Git",
       style: "shadow-red-500",
     },
+  ];
+
+  const familiarTechnologies = [
     {
-      id: 9,
+      id: 1,
+      src: LuaPic,
+      name: "Lua",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 2,
+      src: MongoDBPic,
+      name: "MongoDB",
+      style: "shadow-lime-500",
+    },
+    {
+      id: 3,
+      src: GrpcPic,
+      name: "gRPC",
+      style: "shadow-teal-400",
+    },
+    {
+      id: 4,
       src: RedisPic,
       name: "Redis",
       style: "shadow-red-500",
@@ -103,8 +113,28 @@ const Experience = () => {
           ))}
         </div> */}
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {technologies.map(({ id, src, name, style }) => (
+        <h4 className="text-2xl font-bold inline pt-4 pb-1 border-b-4 border-gray-400">
+          Proficient
+        </h4>
+
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+          {proficientTechnologies.map(({ id, src, name, style }) => (
+            <div
+              key={id}
+              className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className="w-20 mx-auto justify-center " />
+              <p className="mt-4">{name}</p>
+            </div>
+          ))}
+        </div>
+
+        <h4 className="text-2xl font-bold inline pt-4 pb-1 border-b-4 border-gray-400">
+          Familiar
+        </h4>
+
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+          {familiarTechnologies.map(({ id, src, name, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}

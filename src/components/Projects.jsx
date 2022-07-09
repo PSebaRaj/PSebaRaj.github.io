@@ -2,7 +2,7 @@ import React from "react";
 import project1 from "../assets/portfolioPhotos/pbay.png";
 import project2 from "../assets/portfolioPhotos/gogetitdone.png";
 import project3 from "../assets/portfolioPhotos/tradingPlatform.png";
-import project4 from "../assets/portfolioPhotos/webChat.png";
+import project4 from "../assets/portfolioPhotos/tomatotimer.png";
 import project5 from "../assets/portfolioPhotos/stockapi.png";
 import project6 from "../assets/portfolioPhotos/portfolioPic.png";
 
@@ -32,9 +32,9 @@ const Projects = () => {
     {
       id: 4,
       src: project4,
-      name: "WebChat",
-      loc: "Chat",
-      href: "https://github.com/PSebaRaj/Chat",
+      name: "TomatoTimer.nvim",
+      loc: "tomatotimer.nvim",
+      href: "https://github.com/PSebaRaj/tomatotimer.nvim",
     },
     {
       id: 5,

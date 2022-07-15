@@ -3,7 +3,7 @@ import project1 from "../assets/portfolioPhotos/pbay.png";
 import project2 from "../assets/portfolioPhotos/gogetitdone.png";
 import project3 from "../assets/portfolioPhotos/tradingPlatform.png";
 import project4 from "../assets/portfolioPhotos/tomatotimer.png";
-import project5 from "../assets/portfolioPhotos/stockapi.png";
+import project5 from "../assets/portfolioPhotos/videomemories.png";
 import project6 from "../assets/portfolioPhotos/portfolioPic.png";
 
 const Projects = () => {
@@ -31,18 +31,19 @@ const Projects = () => {
     },
     {
       id: 4,
+      src: project5,
+      name: "VideoMemories",
+      loc: "VideoMemories",
+      href: "https://github.com/PSebaRaj/VideoMemories",
+    },
+    {
+      id: 5,
       src: project4,
       name: "TomatoTimer.nvim",
       loc: "tomatotimer.nvim",
       href: "https://github.com/PSebaRaj/tomatotimer.nvim",
     },
-    {
-      id: 5,
-      src: project5,
-      name: "StockAPI",
-      loc: "StockMarketAPI",
-      href: "https://github.com/PSebaRaj/StockMarketAPI",
-    },
+
     {
       id: 6,
       src: project6,

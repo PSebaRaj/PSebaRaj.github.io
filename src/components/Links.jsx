@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; // FaFileAlt
 import { HiOutlineMail } from "react-icons/hi";
 
 const Links = () => {
@@ -31,7 +31,6 @@ const Links = () => {
         </>
       ),
       href: "mailto:patrick.sebaraj@yale.edu",
-      style: "rounded-br-md",
     },
   ];
 
@@ -42,7 +41,7 @@ const Links = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-ccenter w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500" +
               " " +
               style
             }

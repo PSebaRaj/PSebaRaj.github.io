@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb87d3cd.css",
-    "main.js": "/static/js/main.5399012b.js",
+    "main.css": "/static/css/main.21e0d876.css",
+    "main.js": "/static/js/main.6317aefb.js",
     "static/media/videomemories.png": "/static/media/videomemories.5664cda00f75d44998c0.png",
     "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/tradingPlatform.png": "/static/media/tradingPlatform.48b129e9b3dab440b41d.png",
@@ -18,12 +18,13 @@
     "static/media/C.png": "/static/media/C.bbbbbabc8c191bfb99bf.png",
     "static/media/mongo.png": "/static/media/mongo.8cf84c7c16f87d1cc9a9.png",
     "static/media/redis.png": "/static/media/redis.41b226c863a11e3fb3bb.png",
+    "static/media/docker.png": "/static/media/docker.e0ba9d2386737b9f87c6.png",
     "index.html": "/index.html",
-    "main.fb87d3cd.css.map": "/static/css/main.fb87d3cd.css.map",
-    "main.5399012b.js.map": "/static/js/main.5399012b.js.map"
+    "main.21e0d876.css.map": "/static/css/main.21e0d876.css.map",
+    "main.6317aefb.js.map": "/static/js/main.6317aefb.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb87d3cd.css",
-    "static/js/main.5399012b.js"
+    "static/css/main.21e0d876.css",
+    "static/js/main.6317aefb.js"
   ]
 }

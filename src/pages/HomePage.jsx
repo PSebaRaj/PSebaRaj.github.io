@@ -9,7 +9,7 @@ import Projects from "../components/Projects";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col">
+    <div className="">
       <NavBar />
       <Home />
       <About />

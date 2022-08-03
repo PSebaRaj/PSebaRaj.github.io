@@ -93,6 +93,18 @@ const Projects = () => {
           ))}
         </div>
       </div>
+	  <div className="md:hidden">
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+	  </div>
     </div>
   );
 };

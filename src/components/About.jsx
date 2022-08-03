@@ -12,7 +12,7 @@ const About = () => {
             About Me
           </p>
         </div>
-        <p className="text-xl mt-10">
+        <p className="md:text-xl mt-10">
           I'm a student at Yale pursuring a B.S. in Computer Science and
           Economics, and I'm interested in the intersection of the two fields.
           I've been passionate about all things computers for as long as I can
@@ -22,7 +22,7 @@ const About = () => {
           2023.
         </p>
         <br />
-        <p className="text-xl">
+        <p className="md:text-xl">
           {" "}
           At Yale, I've been able to explore these fields by taking courses like
           Systems Programming (CPSC 323), Computational Intelligence for Games
@@ -32,7 +32,7 @@ const About = () => {
           History (HIST 072).
         </p>
         <br />
-        <p className="text-xl">
+        <p className="md:text-xl">
           {" "}
           Beyond this, I'm involved in extracurriculars such as the Yale Daily
           News and the Morse College Council, and am interested in Formula One,

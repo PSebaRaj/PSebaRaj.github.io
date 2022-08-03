@@ -9,7 +9,7 @@ import Projects from "../components/Projects";
 
 const HomePage = () => {
   return (
-    <div className="">
+    <div>
       <NavBar />
       <Home />
       <About />

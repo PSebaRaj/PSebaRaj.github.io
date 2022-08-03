@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.83bc97da.css",
-    "main.js": "/static/js/main.bb745569.js",
-    "static/media/stockapi.png": "/static/media/stockapi.61238b1eb06072c8bf4a.png",
+    "main.css": "/static/css/main.fb87d3cd.css",
+    "main.js": "/static/js/main.5399012b.js",
+    "static/media/videomemories.png": "/static/media/videomemories.5664cda00f75d44998c0.png",
     "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/tradingPlatform.png": "/static/media/tradingPlatform.48b129e9b3dab440b41d.png",
     "static/media/tomatotimer.png": "/static/media/tomatotimer.b47dd9ca9a2558b652cd.png",
@@ -19,11 +19,11 @@
     "static/media/mongo.png": "/static/media/mongo.8cf84c7c16f87d1cc9a9.png",
     "static/media/redis.png": "/static/media/redis.41b226c863a11e3fb3bb.png",
     "index.html": "/index.html",
-    "main.83bc97da.css.map": "/static/css/main.83bc97da.css.map",
-    "main.bb745569.js.map": "/static/js/main.bb745569.js.map"
+    "main.fb87d3cd.css.map": "/static/css/main.fb87d3cd.css.map",
+    "main.5399012b.js.map": "/static/js/main.5399012b.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bc97da.css",
-    "static/js/main.bb745569.js"
+    "static/css/main.fb87d3cd.css",
+    "static/js/main.5399012b.js"
   ]
 }

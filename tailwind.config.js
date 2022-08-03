@@ -18,6 +18,10 @@ module.exports = {
           },
         },
       },
+	  fontFamily: {
+		'BlackOps': ['"Black Ops One"', 'cursive'],
+		'Ubuntu': ['Ubuntu', 'sans-serif']
+	  }
     },
   },
   plugins: [],

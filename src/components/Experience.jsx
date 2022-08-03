@@ -2,7 +2,7 @@ import React from "react";
 import GoPic from "../assets/techPhotos/go.png";
 import NodePic from "../assets/techPhotos/node.png";
 import ReactPic from "../assets/techPhotos/react.png";
-import GitPic from "../assets/techPhotos/git.png";
+// import GitPic from "../assets/techPhotos/git.png";
 import MySQLPic from "../assets/techPhotos/mysql.png";
 import MongoDBPic from "../assets/techPhotos/mongo.png";
 import GrpcPic from "../assets/techPhotos/grpc.png";
@@ -11,6 +11,7 @@ import CPic from "../assets/techPhotos/C.png";
 import RedisPic from "../assets/techPhotos/redis.png";
 import PostgresPic from "../assets/techPhotos/pg.png";
 import LuaPic from "../assets/techPhotos/Lua.png";
+import DockerPic from "../assets/techPhotos/docker.png";
 
 const Experience = () => {
   const proficientTechnologies = [
@@ -57,50 +58,56 @@ const Experience = () => {
       style: "shadow-sky-600",
     },
 
-    {
-      id: 8,
-      src: GitPic,
-      name: "Git",
-      style: "shadow-red-500",
-    },
+	{
+	  id: 8,
+	  src: RedisPic,
+	  name: "Redis",
+	  style: "shadow-red-500",
+	},
+    // {
+    //   id: 8,
+    //   src: GitPic,
+    //   name: "Git",
+    //   style: "shadow-red-500",
+    // },
   ];
 
   const familiarTechnologies = [
+	 {
+	  id: 1,
+	  src: DockerPic,
+	  name: "Docker",
+	  style: "shadow-sky-400",
+	 },
+	 {
+	  id: 2,
+	  src: GrpcPic,
+	  name: "gRPC",
+	  style: "shadow-teal-400",
+	 },
     {
-      id: 1,
-      src: LuaPic,
-      name: "Lua",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 2,
+      id: 3,
       src: MongoDBPic,
       name: "MongoDB",
       style: "shadow-lime-500",
     },
-    {
-      id: 3,
-      src: GrpcPic,
-      name: "gRPC",
-      style: "shadow-teal-400",
-    },
-    {
-      id: 4,
-      src: RedisPic,
-      name: "Redis",
-      style: "shadow-red-500",
-    },
+	 {
+	  id: 4,
+	  src: LuaPic,
+	  name: "Lua",
+	  style: "shadow-blue-600",
+	 },
   ];
 
   return (
     <div
-      name="experience"
+      name="technologies"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-100">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-400">
-            Experience
+          <p className="text-4xl inline border-b-4 border-gray-400">
+            Technologies
           </p>
           {/* <p className="py-6">A list of technologies I've used:</p> */}
         </div>
@@ -113,7 +120,7 @@ const Experience = () => {
           ))}
         </div> */}
 
-        <h4 className="text-2xl font-bold inline pt-4 pb-1 border-b-4 border-gray-400">
+        <h4 className="text-2xl inline pt-4 pb-1 border-b-4 border-gray-400">
           Proficient
         </h4>
 
@@ -129,7 +136,7 @@ const Experience = () => {
           ))}
         </div>
 
-        <h4 className="text-2xl font-bold inline pt-4 pb-1 border-b-4 border-gray-400">
+        <h4 className="text-2xl inline pt-4 pb-1 border-b-4 border-gray-400">
           Familiar
         </h4>
 

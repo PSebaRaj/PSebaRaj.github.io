@@ -20,7 +20,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      linkLabel: "experience",
+      linkLabel: "technologies",
     },
     {
       id: 5,
@@ -32,7 +32,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h20 text-gray-100 fixed px-4 py-1">
       <div>
         <div
-          class="text-5xl font-semibold 
+          class="text-5xl font-semibold
             bg-gradient-to-r bg-clip-text  text-transparent ml-2
             from-sky-500 via-gray-100 to-sky-500
             animate-text duration-300

@@ -31,6 +31,7 @@ const Links = () => {
         </>
       ),
       href: "mailto:patrick.sebaraj@yale.edu",
+	  style: "rounded-br-md",
     },
   ];
 

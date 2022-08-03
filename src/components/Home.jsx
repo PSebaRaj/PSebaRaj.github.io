@@ -58,8 +58,7 @@ const Home = () => {
             !
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            I'm a Junior at Yale College studying Computer Science and
-            Economics.
+            I'm a Junior at Yale College studying Computer Science and Economics.
           </p>
 
           <div>

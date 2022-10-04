@@ -17,9 +17,8 @@ const About = () => {
           Economics, and I'm interested in the intersection of the two fields.
           I've been passionate about all things computers for as long as I can
           remember, and I've found and strengthened my passion for economics at
-          college. I've previously interned at NASA and Palnar, and I'm
-          currently seeking software engineering opportunities for the summer of
-          2023.
+          college. I've previously interned at NASA and Palnar, and I'll
+          be interning at Amazon for the summer of 2023.
         </p>
         <br />
         <p className="md:text-xl">
@@ -36,7 +35,7 @@ const About = () => {
           {" "}
           Beyond this, I'm involved in extracurriculars such as the Yale Daily
           News and the Morse College Council, and am interested in Formula One,
-          tennis, and EDM.
+          tennis, soccer, and EDM.
         </p>
       </div>
     </div>

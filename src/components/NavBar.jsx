@@ -33,17 +33,17 @@ const NavBar = () => {
   const externalLinks = [
     {
       id: 1,
-	  label: "Github",
+      label: "Github",
       href: "https://github.com/PSebaRaj",
     },
     {
       id: 2,
-	  label: "LinkedIn",
+      label: "LinkedIn",
       href: "https://www.linkedin.com/in/sebaraj/",
     },
     {
       id: 3,
-	  label: "Email",
+      label: "Email",
       href: "mailto:patrick.sebaraj@yale.edu",
     },
   ];
@@ -93,7 +93,14 @@ const NavBar = () => {
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400">
           {externalLinks.map(({ id, label, href }) => (
             <li className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 hover:text-gray-100 duration-200">
-                <a onClick={() => setExternal(!external)} href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+              <a
+                onClick={() => setExternal(!external)}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {label}
+              </a>
             </li>
           ))}
         </ul>

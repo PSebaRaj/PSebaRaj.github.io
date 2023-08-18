@@ -2,16 +2,15 @@ import React from "react";
 import GoPic from "../assets/techPhotos/go.png";
 import NodePic from "../assets/techPhotos/node.png";
 import ReactPic from "../assets/techPhotos/react.png";
-// import GitPic from "../assets/techPhotos/git.png";
-import MySQLPic from "../assets/techPhotos/mysql.png";
-import MongoDBPic from "../assets/techPhotos/mongo.png";
+import TSPic from "../assets/techPhotos/TypeScript.png";
+import KotlinPic from "../assets/techPhotos/Kotlin.png";
 import GrpcPic from "../assets/techPhotos/grpc.png";
 import Python from "../assets/techPhotos/python.png";
-import CPic from "../assets/techPhotos/C.png";
+import CPPPic from "../assets/techPhotos/C++.png";
 import RedisPic from "../assets/techPhotos/redis.png";
 import PostgresPic from "../assets/techPhotos/pg.png";
-import LuaPic from "../assets/techPhotos/Lua.png";
 import DockerPic from "../assets/techPhotos/docker.png";
+import AWSPic from "../assets/techPhotos/aws.png";
 
 const Experience = () => {
   const proficientTechnologies = [
@@ -29,74 +28,67 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: CPic,
-      name: "C",
-      style: "shadow-sky-600",
+      src: KotlinPic,
+      name: "Kotlin",
+      style: "shadow-purple-600",
     },
     {
       id: 4,
+      src: TSPic,
+      name: "TypeScript",
+      style: "shadow-sky-600",
+    },
+    {
+      id: 5,
       src: NodePic,
       name: "Node.js",
       style: "shadow-lime-500",
     },
     {
-      id: 5,
+      id: 6,
       src: ReactPic,
       name: "React",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: PostgresPic,
       name: "PostgreSQL",
       style: "shadow-sky-600",
     },
     {
-      id: 7,
-      src: MySQLPic,
-      name: "MySQL",
-      style: "shadow-sky-600",
+      id: 8,
+      src: AWSPic,
+      name: "Amazon Web Services",
+      style: "shadow-amber-500",
     },
-
-	{
-	  id: 8,
-	  src: RedisPic,
-	  name: "Redis",
-	  style: "shadow-red-500",
-	},
-    // {
-    //   id: 8,
-    //   src: GitPic,
-    //   name: "Git",
-    //   style: "shadow-red-500",
-    // },
   ];
 
   const familiarTechnologies = [
-	 {
-	  id: 1,
-	  src: DockerPic,
-	  name: "Docker",
-	  style: "shadow-sky-400",
-	 },
-	 {
-	  id: 2,
-	  src: GrpcPic,
-	  name: "gRPC",
-	  style: "shadow-teal-400",
-	 },
+    {
+      id: 1,
+      src: CPPPic,
+      name: "C++",
+      style: "shadow-sky-600",
+    },
+    {
+      id: 2,
+      src: GrpcPic,
+      name: "gRPC",
+      style: "shadow-teal-400",
+    },
     {
       id: 3,
-      src: MongoDBPic,
-      name: "MongoDB",
-      style: "shadow-lime-500",
+      src: DockerPic,
+      name: "Docker",
+      style: "shadow-sky-400",
     },
-	 {
-	  id: 4,
-	  src: LuaPic,
-	  name: "Lua",
-	  style: "shadow-blue-600",
-	 },
+    {
+      id: 4,
+      src: RedisPic,
+      name: "Redis",
+      style: "shadow-red-500",
+    },
   ];
 
   return (
@@ -146,7 +138,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto justify-center " />
+              <img src={src} alt="" className="w-20 mx-auto justify-center align-middle" />
               <p className="mt-4">{name}</p>
             </div>
           ))}

@@ -1,55 +1,54 @@
 import React from "react";
-import project1 from "../assets/portfolioPhotos/pbay.png";
-import project2 from "../assets/portfolioPhotos/gogetitdone.png";
-import project3 from "../assets/portfolioPhotos/tradingPlatform.png";
-import project4 from "../assets/portfolioPhotos/tomatotimer.png";
+import project1 from "../assets/portfolioPhotos/nesolver.png";
+import project2 from "../assets/portfolioPhotos/pds.png";
+import project3 from "../assets/portfolioPhotos/gogetitdone.png";
+import project4 from "../assets/portfolioPhotos/tradingPlatform.png";
 import project5 from "../assets/portfolioPhotos/videomemories.png";
-import project6 from "../assets/portfolioPhotos/portfolioPic.png";
+import project6 from "../assets/portfolioPhotos/tomatotimer.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
       src: project1,
-      name: "PBay",
-      loc: "pBay",
-      href: "https://github.com/PSebaRaj/pBay",
+      name: "NE Solver",
+      loc: "NESolver",
+      href: "https://github.com/PSebaRaj/NESolver",
     },
     {
       id: 2,
       src: project2,
+      name: "PDS",
+      loc: "PDS",
+      href: "https://github.com/PSebaRaj/PDS",
+    },
+    {
+      id: 3,
+      src: project3,
       name: "GoGetItDone",
       loc: "GoGetItDone",
       href: "https://github.com/PSebaRaj/GoGetItDone",
     },
     {
-      id: 3,
-      src: project3,
+      id: 4,
+      src: project4,
       name: "TradingPlatform",
       loc: "TradingPlatform",
       href: "https://github.com/PSebaRaj/TradingPlatform",
     },
     {
-      id: 4,
+      id: 5,
       src: project5,
       name: "VideoMemories",
       loc: "VideoMemories",
       href: "https://github.com/PSebaRaj/VideoMemories",
     },
     {
-      id: 5,
-      src: project4,
+      id: 6,
+      src: project6,
       name: "TomatoTimer.nvim",
       loc: "tomatotimer.nvim",
       href: "https://github.com/PSebaRaj/tomatotimer.nvim",
-    },
-
-    {
-      id: 6,
-      src: project6,
-      name: "Portfolio",
-      loc: "",
-      href: "https://github.com/PSebaRaj/PSebaRaj.github.io",
     },
   ];
 
@@ -58,15 +57,13 @@ const Projects = () => {
       name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-gray-100 md:h-screen "
     >
-	  <div className="md:hidden">
-		<br />
-		<br />
-	  </div>
+      <div className="md:hidden">
+        <br />
+        <br />
+      </div>
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl inline border-b-4 border-gray-400">
-            Projects
-          </p>
+          <p className="text-4xl inline border-b-4 border-gray-400">Projects</p>
           {/* <p className="py-6">A selection of my non-coursework projects:</p> */}
         </div>
 
@@ -97,19 +94,19 @@ const Projects = () => {
           ))}
         </div>
       </div>
-	  <div className="md:hidden">
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-	  </div>
+      <div className="md:hidden">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   );
 };

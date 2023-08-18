@@ -6,24 +6,22 @@ const Contact = () => {
       name="contact"
       className="w-full md:h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100"
     >
-	  <div className="md:hidden">
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-	  </div>
+      <div className="md:hidden">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl inline border-b-4 border-gray-400">
-            Contact
-          </p>
+          <p className="text-4xl inline border-b-4 border-gray-400">Contact</p>
           <p className="md:text-xl py-6">
             I can be reached through the form below or emailed directly at
             patrick.sebaraj@yale.edu.

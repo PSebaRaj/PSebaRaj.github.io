@@ -12,57 +12,58 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-4xl md:text-7xl text-gray-100 flex flex-wrap">
             Hi!&nbsp;I'm&nbsp;
-			<div>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              P
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              a
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              t
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              r
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              i
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              c
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              k
-            </span>
-			</div>
+            <div>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                P
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                a
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                t
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                r
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                i
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                c
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                k
+              </span>
+            </div>
             &nbsp;
-			<div>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              S
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              e
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              b
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              a
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              R
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              a
-            </span>
-            <span className="hover:scale-110 hover:text-sky-400 duration-300">
-              j
-            </span>
-            !
-			</div>
+            <div>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                S
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                e
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                b
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                a
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                R
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                a
+              </span>
+              <span className="hover:scale-110 hover:text-sky-400 duration-300">
+                j
+              </span>
+              !
+            </div>
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            I'm a Junior at Yale College studying Computer Science and Economics.
+            I'm a Senior at Yale College studying Computer Science and
+            Economics.
           </p>
 
           <div>

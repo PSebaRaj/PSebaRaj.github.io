@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0738b5f.css",
-    "main.js": "/static/js/main.b82cbd96.js",
+    "main.css": "/static/css/main.d45de068.css",
+    "main.js": "/static/js/main.d0b97b0c.js",
     "static/media/videomemories.png": "/static/media/videomemories.5664cda00f75d44998c0.png",
-    "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/tradingPlatform.png": "/static/media/tradingPlatform.48b129e9b3dab440b41d.png",
     "static/media/tomatotimer.png": "/static/media/tomatotimer.b47dd9ca9a2558b652cd.png",
+    "static/media/aws.png": "/static/media/aws.6ea666409de8d4ae80a9.png",
     "static/media/gogetitdone.png": "/static/media/gogetitdone.00da0086310f952a4e1c.png",
-    "static/media/Lua.png": "/static/media/Lua.e7a9c3d278f97ae7775a.png",
-    "static/media/pbay.png": "/static/media/pbay.31416382e8cdeb0c1216.png",
-    "static/media/portfolioPic.png": "/static/media/portfolioPic.12378e225a5454042dc2.png",
+    "static/media/pds.png": "/static/media/pds.87c051684bc8722aa810.png",
+    "static/media/C++.png": "/static/media/C++.fc461cc8303a38559c80.png",
+    "static/media/TypeScript.png": "/static/media/TypeScript.659e4b9351cf1baa6930.png",
     "static/media/grpc.png": "/static/media/grpc.53d579373504f7c706d1.png",
+    "static/media/nesolver.png": "/static/media/nesolver.57480591fbf872d5cc5d.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/python.png": "/static/media/python.141f12b52bc6f27a2926.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/pg.png": "/static/media/pg.a27326a86c975b13383e.png",
-    "static/media/C.png": "/static/media/C.bbbbbabc8c191bfb99bf.png",
-    "static/media/mongo.png": "/static/media/mongo.8cf84c7c16f87d1cc9a9.png",
+    "static/media/Kotlin.png": "/static/media/Kotlin.e561bb24367c5fce5fcd.png",
     "static/media/redis.png": "/static/media/redis.41b226c863a11e3fb3bb.png",
     "static/media/docker.png": "/static/media/docker.e0ba9d2386737b9f87c6.png",
     "index.html": "/index.html",
-    "main.a0738b5f.css.map": "/static/css/main.a0738b5f.css.map",
-    "main.b82cbd96.js.map": "/static/js/main.b82cbd96.js.map"
+    "main.d45de068.css.map": "/static/css/main.d45de068.css.map",
+    "main.d0b97b0c.js.map": "/static/js/main.d0b97b0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0738b5f.css",
-    "static/js/main.b82cbd96.js"
+    "static/css/main.d45de068.css",
+    "static/js/main.d0b97b0c.js"
   ]
 }
